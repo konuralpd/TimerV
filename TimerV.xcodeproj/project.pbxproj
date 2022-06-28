@@ -13,6 +13,7 @@
 		04D34719286A7DA800309A83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D34717286A7DA800309A83 /* Main.storyboard */; };
 		04D3471B286A7DAA00309A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D3471A286A7DAA00309A83 /* Assets.xcassets */; };
 		04D3471E286A7DAA00309A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D3471C286A7DAA00309A83 /* LaunchScreen.storyboard */; };
+		04D34726286A894900309A83 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D34725286A894900309A83 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		04D3471A286A7DAA00309A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D3471D286A7DAA00309A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D3471F286A7DAA00309A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D34725286A894900309A83 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		04D34729286A8E3400309A83 /* Kalista.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kalista.ttf; sourceTree = "<group>"; };
+		04D3472A286A8E3E00309A83 /* Kalista.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Kalista.ttf; path = ../../../kalista/Kalista.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		04D34710286A7DA800309A83 /* TimerV */ = {
 			isa = PBXGroup;
 			children = (
+				04D34728286A8E2600309A83 /* Font */,
 				04D34711286A7DA800309A83 /* AppDelegate.swift */,
 				04D34713286A7DA800309A83 /* SceneDelegate.swift */,
 				04D34715286A7DA800309A83 /* ViewController.swift */,
@@ -63,8 +68,18 @@
 				04D3471A286A7DAA00309A83 /* Assets.xcassets */,
 				04D3471C286A7DAA00309A83 /* LaunchScreen.storyboard */,
 				04D3471F286A7DAA00309A83 /* Info.plist */,
+				04D34725286A894900309A83 /* Helper.swift */,
 			);
 			path = TimerV;
+			sourceTree = "<group>";
+		};
+		04D34728286A8E2600309A83 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				04D3472A286A8E3E00309A83 /* Kalista.ttf */,
+				04D34729286A8E3400309A83 /* Kalista.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +126,8 @@
 				Base,
 			);
 			mainGroup = 04D34705286A7DA800309A83;
+			packageReferences = (
+			);
 			productRefGroup = 04D3470F286A7DA800309A83 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,6 +158,7 @@
 				04D34716286A7DA800309A83 /* ViewController.swift in Sources */,
 				04D34712286A7DA800309A83 /* AppDelegate.swift in Sources */,
 				04D34714286A7DA800309A83 /* SceneDelegate.swift in Sources */,
+				04D34726286A894900309A83 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
